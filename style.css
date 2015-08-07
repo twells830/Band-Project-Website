@@ -1,10 +1,18 @@
 #landing{
 	text-align: center;
+	padding: 50px;
+	margin-bottom: 120px;
+
+}
+#bandName{
+	font-size: 100px;
+	padding: 90px;
 }
 nav{
 	text-align: center;
 	font-size:24px;
 	font-weight: 20;
+	margin-bottom: 45px;
 }
 nav ul{
     list-style-type: none;
@@ -30,7 +38,7 @@ a:active{
 	color: red ;
 }
 body{
-
+	margin: 0;
 	line-height: 1.5em;
 	font-size: 16px;
 	background: -webkit-linear-gradient(#383838, #2B2B2B);
