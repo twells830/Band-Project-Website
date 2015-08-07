@@ -1,0 +1,45 @@
+body{
+
+	line-height: 1.5em;
+	font-size: 16px;
+	background: -webkit-linear-gradient(#383838, #2B2B2B);
+}
+nav{
+	text-align: center;
+	font-size:24px;
+	font-weight: 20;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+	color: white;
+}
+a:visited:{
+	color: yellow;
+}
+a:hover{
+	color: black;
+}
+a:active{
+	color: red ;
+}
+p{
+	font-size: 16px;
+	text-align: center;
+}
+#videos{
+	white-space: 0px;
+	padding: 0px;
+}
+footer{
+	text-align: center;
+}
