@@ -1,9 +1,9 @@
 .top{
 	text-align: center;
-	padding: 5%;
-	margin-bottom: 120px;
+	padding: 4.3%;
 	position: relative;
 	overflow: hidden;
+
 }
 .backgroundVideo{
 	z-index: -1;
@@ -12,7 +12,7 @@
 	left: 0;
 	top: 0;
 	overflow: hidden;
-    width: 100%
+    width: 100%;
 }
 #bandName{
 	font-size: 200px;
@@ -23,7 +23,12 @@
 	font-family: 'Six Caps', sans-serif;
 	letter-spacing: 20px;
 	font-weight: -50%;
-	color: #f6f6f6
+	color: #f6f6f6;
+	position: relative;
+}
+.buttonContainer{
+	margin-left: 20%;
+	margin-right: 20%;
 }
 button{
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
@@ -36,7 +41,7 @@ button{
 	-moz-border-radius:6px;
 	-webkit-border-radius:6px;
 	border-radius:6px;
-	border:1px solid #dcdcdc;
+	border:0px solid #dcdcdc;
 	display:inline-block;
 	cursor:pointer;
 	color:#666666;
@@ -45,48 +50,39 @@ button{
 	font-weight:bold;
 	padding:30px 65px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #ffffff;
-}
-button:hover {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
-	background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
-	background:-webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
-	background:-o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
-	background:-ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
-	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
-	background-color:#f6f6f6;
-}
-button:active {
-	position:relative;
-	top:1px;
 }
 
 
 
 nav{
-	text-align: center;
 	font-family:Arial;
 	font-size:24px;
 	font-weight: 20;
 	margin-bottom: 45px;
-	color: #f6f6f6
+	color: #f6f6f6;
+	margin-left: 33%;
+    margin-right: 33%;
 }
 nav ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+
 }
 nav li {
     display: inline;
+    margin-left: 6%;
+    margin-right: 6%;
 }
 a{
 	text-decoration: none;
 }
-a:link{
+.navLink:link{
 	color: #f6f6f6;
 }
-a:visited{
+.navLink:visited{
 	color: #f6f6f6;
+}
+.section{
+	padding: 10%;
 }
 body{
 	margin: 0;
@@ -99,11 +95,6 @@ body{
 }
 p{
 	font-size: 16px;
-	text-align: center;
-}
-#videos{
-	white-space: 0px;
-	padding: 0px;
 }
 footer{
 	text-align: center;
