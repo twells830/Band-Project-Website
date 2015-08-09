@@ -13,6 +13,7 @@
 	font-family: 'Six Caps', sans-serif;
 	letter-spacing: 20px;
 	font-weight: -50%;
+	color: #f6f6f6
 }
 button{
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
@@ -49,6 +50,8 @@ button:active {
 	position:relative;
 	top:1px;
 }
+
+
 
 nav{
 	text-align: center;
