@@ -1,9 +1,5 @@
 .top{
-	text-align: center;
-	padding: 4.3%;
-	position: relative;
 	overflow: hidden;
-
 }
 .backgroundVideo{
 	z-index: -1;
@@ -14,22 +10,14 @@
 	overflow: hidden;
     width: 100%;
 }
-#bandName{
+.bandName h1{
 	font-size: 200px;
-	padding-top: 10px;
-	padding-left: 70px;
-	padding-right: 70px;
-	padding-bottom: 70px;
 	font-family: 'Six Caps', sans-serif;
 	letter-spacing: 20px;
-	font-weight: -50%;
 	color: #f6f6f6;
-	position: relative;
+	text-align: center;
 }
-.buttonContainer{
-	margin-left: 20%;
-	margin-right: 20%;
-}
+
 button{
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
 	background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
@@ -51,26 +39,22 @@ button{
 	padding:30px 65px;
 	text-decoration:none;
 }
-
-
-
-nav{
+.buttonContainer{
+	text-align: center;
+}
+.nav{
 	font-family:Arial;
 	font-size:24px;
 	font-weight: 20;
-	margin-bottom: 45px;
 	color: #f6f6f6;
-	margin-left: 33%;
-    margin-right: 33%;
+	text-align: center;
+	padding-top: 5%;
 }
-nav ul{
+.nav ul{
     list-style-type: none;
-
 }
-nav li {
+.nav li {
     display: inline;
-    margin-left: 6%;
-    margin-right: 6%;
 }
 a{
 	text-decoration: none;
@@ -80,6 +64,10 @@ a{
 }
 .navLink:visited{
 	color: #f6f6f6;
+}
+.navLink:hover{
+	text-decoration: none;
+	color: yellow;
 }
 .section{
 	padding: 10%;
@@ -92,9 +80,11 @@ body{
 	background:-moz-linear-gradient(#383838, #2B2B2B);
 	background:-o-linear-gradient(#383838, #2B2B2B);
 	background:linear-gradient(#383838, #2B2B2B);
+
 }
 p{
 	font-size: 16px;
+	color: black;
 }
 footer{
 	text-align: center;
