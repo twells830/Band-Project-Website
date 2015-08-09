@@ -1,19 +1,17 @@
-#landing{
+.top{
 	text-align: center;
-	padding: 50px;
+	padding: 5%;
 	margin-bottom: 120px;
 	position: relative;
+	overflow: hidden;
 }
-#backgroundVideo{
+.backgroundVideo{
 	z-index: -1;
 	position: absolute;
 	right: 0;
 	left: 0;
 	top: 0;
-	height: 650px;
 	overflow: hidden;
-    height: 100%;
-    height: auto;
     width: 100%
 }
 #bandName{
@@ -67,9 +65,11 @@ button:active {
 
 nav{
 	text-align: center;
+	font-family:Arial;
 	font-size:24px;
 	font-weight: 20;
 	margin-bottom: 45px;
+	color: #f6f6f6
 }
 nav ul{
     list-style-type: none;
@@ -80,19 +80,13 @@ nav li {
     display: inline;
 }
 a{
-    text-decoration: none;
+	text-decoration: none;
 }
 a:link{
-	color: white;
+	color: #f6f6f6;
 }
-a:visited:{
-	color: yellow;
-}
-a:hover{
-	color: black;
-}
-a:active{
-	color: red ;
+a:visited{
+	color: #f6f6f6;
 }
 body{
 	margin: 0;
