@@ -1,4 +1,8 @@
 .top{
+	text-align: center;
+	padding: 5%;
+	margin-bottom: 120px;
+	position: relative;
 	overflow: hidden;
 }
 .backgroundVideo{
@@ -8,17 +12,19 @@
 	left: 0;
 	top: 0;
 	overflow: hidden;
-	width: 100%
+    width: 100%
 }
-.bandName{
+#bandName{
 	font-size: 200px;
+	padding-top: 10px;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 70px;
 	font-family: 'Six Caps', sans-serif;
 	letter-spacing: 20px;
-	color: #f6f6f6;
-	text-align: center;	 	
-	position: relative;
+	font-weight: -50%;
+	color: #f6f6f6
 }
-
 button{
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
 	background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
@@ -30,7 +36,7 @@ button{
 	-moz-border-radius:6px;
 	-webkit-border-radius:6px;
 	border-radius:6px;
-	border:0px solid #dcdcdc;
+	border:1px solid #dcdcdc;
 	display:inline-block;
 	cursor:pointer;
 	color:#666666;
@@ -39,59 +45,49 @@ button{
 	font-weight:bold;
 	padding:30px 65px;
 	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
 }
-.buttonContainer{
+button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
+	background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+nav{
 	text-align: center;
-}
-.nav{
 	font-family:Arial;
 	font-size:24px;
 	font-weight: 20;
-	color: #f6f6f6;
-	text-align: center;
-	background-color: blue;
-	padding-top: 2%;
-	padding-bottom: 2%
+	margin-bottom: 45px;
+	color: #f6f6f6
 }
-.nav ul{
+nav ul{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-.nav li {
+nav li {
     display: inline;
 }
 a{
 	text-decoration: none;
 }
-.navLink:link{
+a:link{
 	color: #f6f6f6;
 }
-.navLink:visited{
+a:visited{
 	color: #f6f6f6;
 }
-.navLink:hover{
-	text-decoration: none;
-	color: yellow;
-}
-.contact{
-	text-align: center;
-}
-.largeBuffer{
-	margin-top: 5%;
-	margin-bottom: 5%;
-}
-.buttonBuffer{
-	margin-top: 3.5%;
-	margin-bottom: 6.3%;
-}
-.mediumBuffer{
-	margin-top: 3.33%;
-	margin-bottom: 3.33%;
-}
-.smallBuffer{
-	margin-top: 2.5%;
-	margin-bottom: 2.5%;
-}
-
 body{
 	margin: 0;
 	line-height: 1.5em;
@@ -100,11 +96,14 @@ body{
 	background:-moz-linear-gradient(#383838, #2B2B2B);
 	background:-o-linear-gradient(#383838, #2B2B2B);
 	background:linear-gradient(#383838, #2B2B2B);
-
 }
 p{
 	font-size: 16px;
-	color: black;
+	text-align: center;
+}
+#videos{
+	white-space: 0px;
+	padding: 0px;
 }
 footer{
 	text-align: center;
