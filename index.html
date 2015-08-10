@@ -2,58 +2,86 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+
 	<meta author = "Tanner Wells">
 	<title>Drax Project</title>
 	<link href='http://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/script.js"></script>
+	<script src="js/jquery-1.11.3.js"></script>
+
 </head>
 
 	<body>
+    	<script src="js/bootstrap.min.js"></script>
+		
+
+
 		<header>
-		<div class = "top">
+	<div class = "container-fluid top">
 			
 			<video class = "backgroundVideo" loop="loop" preload="auto" autoplay muted>
 			<source src="draxProject.mp4" type="video/mp4">
 			</video>
 
-			<h1 id = "bandName">DRAX PROJECT EP</h1>
-			<a href="https://soundcloud.com/drax-project/sets/drax-project-ep"><button>SoundCloud</button></a>
-			<a href="https://draxproject.bandcamp.com/album/drax-project-ep"><button>BandCamp</button></a>
-		</div>
+			<div class = "row">
+			<div class = "col-md-12 bandName mediumBuffer">
+			<h1>DRAX PROJECT EP</h1>
+			</div>
 
-		<nav>
+			<div class = "row buttonContainer mediumBuffer">
+				<div class = "col-md-12">
+				<a href="https://soundcloud.com/drax-project/sets/drax-project-ep"><button>SoundCloud</button></a>
+				<a href="https://draxproject.bandcamp.com/album/drax-project-ep"><button>BandCamp</button></a>
+				</div>
+			</div>
+
+		<div class = "row nav smallBuffer">
 			<ul>
-				<li><a href="#videos">Videos</a></li>
-				<li><a href="#gigs">Gigs</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li class = "col-md-4"><a href="#gigs" class = "navLink">Gigs</a></li>
+				<li class = "col-md-4"><a href="#about" class = "navLink">About</a></li>
+				<li class = "col-md-4"><a href="#contact" class = "navLink">Contact</a></li>
 			</ul>
-		</nav>
+		</div>
+	</div>
+
 		</header>
 
 
+
+
+
+
+
+
 		<page>
-			<div id="videos">
-				<a name="videos"></a>
+			
+			<div class = "row">
+				<a name = "gigs"></a>
+				<p class = "col-md-10 col-md-offset-1"></p>
 			</div>
 
-			<div id = "about">
+
+
+			<div class = "row">
 				<a name = "about"></a>
-					<p>Drax Project is a four piece Alternative Pop/Hip-Hop band who began as group of buskers on the streets of Wellington in 2012.
+					<p class = "col-md-10 col-md-offset-1">Drax Project is a four piece Alternative Pop/Hip-Hop band who began as group of buskers on the streets of Wellington in 2012.
 					Selling out their EP release show in Wellington, along with being announced on the line up for Rhythm & Alps and Rhythm & Vines NZ this year, Drax Project are a name to keep an eye out for.
 					<br><br>
 					<b id="bandCredits">Shaan, Vocal-Sax-Synth / Sam, Bass-Vocal / Ben, Guitar-Vocal / Matt, Drums-Cymbals</b></p>
 			</div>
 
-			<div id = "contact">
+			<div class= "row contact">
 				<a name = "contact"></a>
-					<p>contact@draxproject.com</p>
+					<p class = "col-md-12">contact@draxproject.com</p>
 			</div>
 		</page>
 
-		<footer>
-			Website by Tanner Wells.
-		</footer>
+		<footer><small>Website by Tanner Wells.</small></footer>
 	</body>
 </html>
