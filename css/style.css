@@ -89,9 +89,6 @@ a{
 	margin-top: 5%;
 	margin-bottom: 3%;
 }
-.smallPadding{
-
-}
 body{
 	margin: 0;
 	line-height: 1.5em;
@@ -109,5 +106,4 @@ p{
 footer{
 	text-align: center;
 	color: #f6f6f6;
-}
 }

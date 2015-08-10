@@ -3,28 +3,32 @@
 
 <head>
     <meta charset="utf-8">
+	<meta author = "Tanner Wells">
+	<title>Drax Project</title>
+
+    <!--BootStrap-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+   	<script src="js/bootstrap.min.js"></script>
 
-
-	<meta author = "Tanner Wells">
-	<title>Drax Project</title>
-	<link href='http://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'>
+   	<!--CSS-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!--Google Font 'Six Caps' for band name-->
+	<link href='http://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'>
+
+	<!--JavaScript / jQuery-->
 	<script src="js/script.js"></script>
-	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/jquery-1.11.3.min.js"></script>
+
 
 </head>
 
 	<body>
-    	<script src="js/bootstrap.min.js"></script>
-		
-
-
-		<header>
-	<div class = "top">
-			
+	<header>
+	
+	<div class = "top">	
 			<video class = "backgroundVideo" loop="loop" preload="auto" autoplay muted>
 			<source src="draxProject.mp4" type="video/mp4">
 			</video>
@@ -42,33 +46,25 @@
 				</div>
 			</div>
 	</div>
-	
-		<div class = "row nav smallPadding">
-			<ul class = "col-md-12">
-				<li class = "col-md-4" ><a href="#gigs" class = "navLink ">Gigs</a></li>
-				<li class = "col-md-4"><a href="#about" class = "navLink">About</a></li>
-				<li class = "col-md-4"><a href="#contact" class = "navLink">Contact</a></li>
-			</ul>
-		</div>
+
+	<div class = "row nav">
+		<ul class = "col-md-12">
+			<li class = "col-md-4" ><a href="#gigs" class = "navLink ">Gigs</a></li>
+			<li class = "col-md-4"><a href="#about" class = "navLink">About</a></li>
+			<li class = "col-md-4"><a href="#contact" class = "navLink">Contact</a></li>
+		</ul>
 	</div>
 
-		</header>
+	</header>
 
-
-
-
-
-
-
-
-		<page>
-			
+		<page>		
 			<div class = "row">
 				<a name = "gigs"></a>
 				<p class = "col-md-10 col-md-offset-1"></p>
+				<div class = "col-md-10 col-md-offset-1 gigList">
+					<!-- use javascript to pull show dates from antoher page and put them here-->
+				</div>
 			</div>
-
-
 
 			<div class = "row">
 				<a name = "about"></a>
@@ -82,8 +78,10 @@
 				<a name = "contact"></a>
 					<p class = "col-md-12">contact@draxproject.com</p>
 			</div>
+
 		</page>
 
 		<footer><small>Website by Tanner Wells.</small></footer>
+		
 	</body>
 </html>
