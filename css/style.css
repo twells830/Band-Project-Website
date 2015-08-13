@@ -3,7 +3,6 @@
 	padding-bottom: 7%;
 	position: relative;
 	overflow: hidden;
-	z-index: -1;
 }
 .backgroundVideo{
 	z-index: -2;
@@ -12,7 +11,7 @@
 	left: 0;
 	top: 0;
 	overflow: hidden;
-    width: 100%
+    width: 100%;
 }
 .bandName{
 	font-size: 100px;
@@ -21,7 +20,10 @@
 	color: #f6f6f6;
 	text-align: center;
 }
-
+.textPadding{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
 button{
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
 	background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
@@ -97,6 +99,9 @@ body{
 	background:-moz-linear-gradient(#383838, #2B2B2B);
 	background:-o-linear-gradient(#383838, #2B2B2B);
 	background:linear-gradient(#383838, #2B2B2B);
+
+}
+.page{
 
 }
 p{
