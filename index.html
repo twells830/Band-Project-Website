@@ -52,19 +52,18 @@
 
 	<div class = "row nav">
 		<ul class = "col-md-12 col-sm-12 col-xs-12">
-			<li class = "col-md-3 col-sm-3 col-xs-3" ><a href="#gigs" class = "navLink ">Gigs</a></li>
-			<li class = "col-md-3 col-sm-3 col-xs-3"><a href="#about" class = "navLink">About</a></li>
-			<li class = "col-md-3 col-sm-3 col-xs-3"><a href="#contact" class = "navLink">Contact</a></li>
-			<li class = "col-md-3 col-sm-3 col-xs-3"><a href="#press" class = "navLink">Press</a></li>			
+			<li class = "col-md-3 col-sm-3 col-xs-3 navLink" data-id = "gigs">Gigs</li>
+			<li class = "col-md-3 col-sm-3 col-xs-3 navLink" data-id = "about">About</li>
+			<li class = "col-md-3 col-sm-3 col-xs-3 navLink" data-id = "contact">Contact</li>
+			<li class = "col-md-3 col-sm-3 col-xs-3 navLink" data-id = "press">Press</li>			
 		</ul>
 	</div>
 
 	</header>
 
 		<div class = "page">		
-			<div class = "row textPadding">
-				<a name = "gigs"></a>
-				<div class = "col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 gigList">
+			<div class = "row textPadding textBlock" id = "gigs">
+				<div class = "col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
 					<!-- use javascript to pull show dates from antoher page and put them here-->
 					<p>Drax Project @ San Fran, Wellington<br>
 					Drax Project @ Some Other Place, Auckland<br>
@@ -72,18 +71,18 @@
 				</div>
 			</div>
 
-			<div class = "row textPadding">
-				<a name = "about"></a>
-					<p class = "col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">Drax Project is a four piece Alternative Pop/Hip-Hop band who began as group of buskers on the streets of Wellington in 2012.
+			<div class = "row textPadding textBlock" id = "about" >
+					<p class = "col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2" id = "about">Drax Project is a four piece Alternative Pop/Hip-Hop band who began as group of buskers on the streets of Wellington in 2012.
 					Selling out their EP release show in Wellington, along with being announced on the line up for Rhythm & Alps and Rhythm & Vines NZ this year, Drax Project are a name to keep an eye out for.
 					<br><br>
 					<b id="bandCredits">Shaan, Vocal-Sax-Synth / Sam, Bass-Vocal / Ben, Guitar-Vocal / Matt, Drums-Cymbals</b></p>
 			</div>
 
-			<div class= "row contact textPadding">
-				<a name = "contact"></a>
+			<div class= "row textPadding textBlock" id = "contact">
 					<p class = "col-md-12 col-sm-12 col-xs-12">contact@draxproject.com</p>
 			</div>
+		</div>
+
 			<div class = "socialIcons row">
 				<ul class = "col-md-12 col-md-offset-2 col-sm-12 col-sm-offset-2 col-xs-12 col-xs-offset-2">
 					<li class = "col-md-2 col-sm-2 col-xs-2" id="fbLink"><a href = "https://www.facebook.com/DraxProject">Facebook</a></li>
@@ -92,9 +91,6 @@
 					<li class = "col-md-2 col-sm-2 col-xs-2"><a href="https://instagram.com/draxproject/">Instagram</a>
 				</ul>
 			</div>
-
-		</div>
-
 		<footer><small>Website by Tanner Wells.</small></footer>
 
 	</body>
