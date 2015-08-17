@@ -1,3 +1,4 @@
+//resize function
 function elResize(){
 
 	var width = $(window).width();
@@ -31,15 +32,20 @@ function elResize(){
 		}
 };
 
+//hides all blocks except one clicked from nav
 $(function() {
     $('.navLink').on('click', function() {
         $('#'+$(this).data('id')).show().siblings('.textBlock').hide();
     });
 });
 
+//hides all except gigs for landing page
 $(document).ready(function(){
 	$(".page .textBlock").hide()
 	$("#gigs").show();
 });
+
+//resize function on start
 $(document).ready(elResize);
+//resize on window change
 $(window).resize(elResize);
