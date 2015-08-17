@@ -13,6 +13,15 @@
 	overflow: hidden;
     width: 100%;
 }
+.altBack{
+	z-index: -2;
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+    width: 100%;
+}
 .bandName{
 	font-size: 100px;
 	font-family: 'Six Caps', sans-serif;
