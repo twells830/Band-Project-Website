@@ -107,8 +107,8 @@ body{
 	background:linear-gradient(#383838, #2B2B2B);
 
 }
-.page{
-
+#contact{
+	text-align: center;
 }
 p{
 	font-size: 16px;
