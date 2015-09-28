@@ -29,6 +29,13 @@
 	color: #f6f6f6;
 	text-align: center;
 }
+#subtitle{
+	font-family: 'Six Caps', sans-serif;
+	text-align: center;
+	letter-spacing: 20px;
+	color: #f6f6f6;
+
+}
 .textPadding{
 	padding-top: 5%;
 	padding-bottom: 5%;
@@ -48,7 +55,8 @@ button{
 	display:inline-block;
 	cursor:pointer;
 	color:#666666;
-	font-family:Arial;
+	font-family: 'Six Caps', sans-serif;
+	letter-spacing: 10px;
 	font-size:28px;
 	font-weight:bold;
 	padding:30px;

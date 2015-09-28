@@ -33,11 +33,25 @@ function elResize(){
 };
 
 //hides all blocks except one clicked from nav
+var oldBlock = "#gigs";
+var newBlock; 
 $(function() {
     $('.navLink').on('click', function() {
-        $('#'+$(this).data('id')).show().siblings('.textBlock').hide();
+    	//oldBlock.animate({width: 'toggle'}, 350);
+    	newBlock = $('#'+$(this).data('id'));
+    	newBlock.show().siblings('.textBlock').hide();
+    	oldBlock = newBlock;
     });
 });
+
+
+/*$(function() {
+    $('.navLink').on('click', function() {
+    	$('#'+$(this).data('id')).show().siblings('.textBlock').hide();
+    });
+});*/
+
+//$("#slide").animate({width:'toggle'},350);
 
 //hides all except gigs for landing page
 $(document).ready(function(){
