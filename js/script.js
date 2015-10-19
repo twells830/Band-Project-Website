@@ -33,6 +33,7 @@ function elResize(){
 };
 
 //hides all blocks except one clicked from nav
+/*
 var oldBlock = "#gigs";
 var newBlock; 
 $(function() {
@@ -43,7 +44,15 @@ $(function() {
     	oldBlock = newBlock;
     });
 });
+*/
 
+$(function(){
+	$('.navLink').on('click', function(){
+		newBlock = $('#' + $(this).data('id'));
+		newBlock.show();
+		newBlock.siblings('.textBlock').hide();
+	});
+});
 
 /*$(function() {
     $('.navLink').on('click', function() {
