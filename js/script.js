@@ -7,6 +7,7 @@ function elResize(){
 			//small devices 768px - 992px
 			$(".bandName").css("font-size", "50px");
 			$(".bandName").css("color", "black");
+			$(".navLink").css("font-size", "30px");
 			$("button").css("font-size", "16px");
 			$("button").css("padding", "20px");
 			$(".backgroundVideo").hide();
@@ -16,6 +17,7 @@ function elResize(){
 			//extra small devices 0px - 768px
 			$(".bandName").css("font-size", "25px");
 			$(".bandName").css("color", "black");
+			$(".navLink").css("font-size", "15px");
 			$("button").css("font-size", "12px");
 			$("button").css("padding", "16px");
 			$(".backgroundVideo").hide();
