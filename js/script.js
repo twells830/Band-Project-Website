@@ -18,8 +18,8 @@ function elResize(){
 			$(".bandName").css("font-size", "25px");
 			$(".bandName").css("color", "black");
 			$(".navLink").css("font-size", "15px");
-			$("button").css("font-size", "12px");
-			$("button").css("padding", "16px");
+			$("button").css("font-size", "10px");
+			$("button").css("padding", "14px");
 			$(".backgroundVideo").hide();
 			$(".altBack").show();
 
