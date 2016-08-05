@@ -7,6 +7,7 @@ function elResize(){
 			//small devices 768px - 992px
 			$(".bandName").css("font-size", "50px");
 			$(".bandName").css("color", "black");
+			$("#subtitle").css("color", "black");
 			$(".navLink").css("font-size", "30px");
 			$("button").css("font-size", "16px");
 			$("button").css("padding", "20px");
@@ -17,6 +18,7 @@ function elResize(){
 			//extra small devices 0px - 768px
 			$(".bandName").css("font-size", "25px");
 			$(".bandName").css("color", "black");
+			$("#subtitle").css("color", "black");
 			$(".navLink").css("font-size", "15px");
 			$("button").css("font-size", "10px");
 			$("button").css("padding", "14px");
@@ -26,6 +28,7 @@ function elResize(){
 		}else{
 			$(".bandName").css("font-size", "100px");
 			$(".bandName").css("color", "#f6f6f6");
+			$("#subtitle").css("color", "#f6f6f6");
 			$("button").css("font-size", "28px");
 			$("button").css("padding", "30px");
 			$(".altBack").hide();
