@@ -1,4 +1,6 @@
 @import "bourbon/bourbon"
+@import "fonts"
+@import "colors"
 @import "backgrounds"
 @import "parallax"
 @import "gigs"
@@ -9,15 +11,11 @@
 	padding-bottom: 7%
 	position: relative
 	overflow: hidden
-
 a
-	color: rgba(0,0,0,0.8)
+	color: $fadedBlack
 	text-decoration: none
 	&:hover
-		color: rgba(0,0,0,1.0)
-
-//new code
-
+		color: $black
 header
 	height: 100vh
 .backgroundVideo, .altBack
@@ -32,25 +30,20 @@ header
 	display: none
 .page
 	background-color: none
-//end of new code
-
 .bandName
 	font-size: 100px
-	font-family: 'Six Caps', sans-serif
+	font-family: $sixCaps
 	letter-spacing: 20px
-	color: #f6f6f6
+	color: $offWhite
 	text-align: center
-
 #subtitle
-	font-family: 'Six Caps', sans-serif
+	font-family: $sixCaps
 	text-align: center
 	letter-spacing: 20px
-	color: #f6f6f6
-
+	color: $offWhite
 .textPadding
 	padding-top: 5%
 	padding-bottom: 5%
-
 button
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6))
 	background: -moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%)
@@ -72,44 +65,8 @@ button
 	font-weight: bold
 	padding: 30px
 	text-decoration: none
-
 .buttonContainer
 	text-align: center
-
-.nav
-	font-family: Arial
-	font-size: 24px
-	font-weight: 20
-	color: #f6f6f6
-	text-align: center
-	position: relative
-	ul
-		list-style-type: none
-	li
-		display: inline
-	ul li
-		background-color: rgba(75, 75, 75, 0.5)
-		padding-top: 2%
-		padding-bottom: 2%
-
-.navLink
-	&:link, &:visited
-		color: #f6f6f6
-	&:hover
-		text-decoration: none
-		color: yellow
-
-.contact
-	text-align: center
-
-.largeBuffer
-	margin-top: 10%
-	margin-bottom: 10%
-
-.mediumBuffer
-	margin-top: 5%
-	margin-bottom: 3%
-
 body
 	margin: 0
 	line-height: 1.5em
@@ -120,13 +77,9 @@ body
 	background: linear-gradient(#383838, #2B2B2B)
 	height: 100%
 	font-family: 'Helvetica'
-#contact
-	text-align: center
-
 p
 	font-size: 16px
-	color: #f6f6f6
-
+	color: $offWhite
 footer
 	text-align: center
-	color: #f6f6f6
+	color: $offWhite

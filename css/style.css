@@ -169,39 +169,6 @@ button {
 .buttonContainer {
   text-align: center; }
 
-.nav {
-  font-family: Arial;
-  font-size: 24px;
-  font-weight: 20;
-  color: #f6f6f6;
-  text-align: center;
-  position: relative; }
-  .nav ul {
-    list-style-type: none; }
-  .nav li {
-    display: inline; }
-  .nav ul li {
-    background-color: rgba(75, 75, 75, 0.5);
-    padding-top: 2%;
-    padding-bottom: 2%; }
-
-.navLink:link, .navLink:visited {
-  color: #f6f6f6; }
-.navLink:hover {
-  text-decoration: none;
-  color: yellow; }
-
-.contact {
-  text-align: center; }
-
-.largeBuffer {
-  margin-top: 10%;
-  margin-bottom: 10%; }
-
-.mediumBuffer {
-  margin-top: 5%;
-  margin-bottom: 3%; }
-
 body {
   margin: 0;
   line-height: 1.5em;
@@ -212,9 +179,6 @@ body {
   background: linear-gradient(#383838, #2B2B2B);
   height: 100%;
   font-family: "Helvetica"; }
-
-#contact {
-  text-align: center; }
 
 p {
   font-size: 16px;
