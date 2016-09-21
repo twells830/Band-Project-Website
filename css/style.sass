@@ -1,0 +1,132 @@
+@import "bourbon/bourbon"
+@import "backgrounds"
+@import "parallax"
+@import "gigs"
+@import "press"
+@import "social"
+.top
+	text-align: center
+	padding-bottom: 7%
+	position: relative
+	overflow: hidden
+
+a
+	color: rgba(0,0,0,0.8)
+	text-decoration: none
+	&:hover
+		color: rgba(0,0,0,1.0)
+
+//new code
+
+header
+	height: 100vh
+.backgroundVideo, .altBack
+	z-index: -1
+	position: fixed
+	right: 0
+	left: 0
+	top: 0
+	overflow: hidden
+	width: 100%
+.altBack
+	display: none
+.page
+	background-color: none
+//end of new code
+
+.bandName
+	font-size: 100px
+	font-family: 'Six Caps', sans-serif
+	letter-spacing: 20px
+	color: #f6f6f6
+	text-align: center
+
+#subtitle
+	font-family: 'Six Caps', sans-serif
+	text-align: center
+	letter-spacing: 20px
+	color: #f6f6f6
+
+.textPadding
+	padding-top: 5%
+	padding-bottom: 5%
+
+button
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6))
+	background: -moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%)
+	background: -webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%)
+	background: -o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%)
+	background: -ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%)
+	background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%)
+	background-color: #ffffff
+	-moz-border-radius: 6px
+	-webkit-border-radius: 6px
+	border-radius: 6px
+	border: 0px solid #dcdcdc
+	display: inline-block
+	cursor: pointer
+	color: #666666
+	font-family: 'Six Caps', sans-serif
+	letter-spacing: 10px
+	font-size: 28px
+	font-weight: bold
+	padding: 30px
+	text-decoration: none
+
+.buttonContainer
+	text-align: center
+
+.nav
+	font-family: Arial
+	font-size: 24px
+	font-weight: 20
+	color: #f6f6f6
+	text-align: center
+	position: relative
+	ul
+		list-style-type: none
+	li
+		display: inline
+	ul li
+		background-color: rgba(75, 75, 75, 0.5)
+		padding-top: 2%
+		padding-bottom: 2%
+
+.navLink
+	&:link, &:visited
+		color: #f6f6f6
+	&:hover
+		text-decoration: none
+		color: yellow
+
+.contact
+	text-align: center
+
+.largeBuffer
+	margin-top: 10%
+	margin-bottom: 10%
+
+.mediumBuffer
+	margin-top: 5%
+	margin-bottom: 3%
+
+body
+	margin: 0
+	line-height: 1.5em
+	font-size: 16px
+	background: -webkit-linear-gradient(#383838, #2B2B2B)
+	background: -moz-linear-gradient(#383838, #2B2B2B)
+	background: -o-linear-gradient(#383838, #2B2B2B)
+	background: linear-gradient(#383838, #2B2B2B)
+	height: 100%
+	font-family: 'Helvetica'
+#contact
+	text-align: center
+
+p
+	font-size: 16px
+	color: #f6f6f6
+
+footer
+	text-align: center
+	color: #f6f6f6

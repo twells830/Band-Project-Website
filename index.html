@@ -1,4 +1,4 @@
-<DOCTYPE! HTML>
+<!DOCTYPE HTML>
 <html>
 
 <head>
@@ -9,8 +9,6 @@
     <!--BootStrap-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-   	<script src="js/bootstrap.min.js"></script>
 
    	<!--CSS-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -18,81 +16,120 @@
 	<!--Google Font 'Six Caps' for band name-->
 	<link href='http://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'>
 
-	<!--JavaScript / jQuery-->
-	<script src="js/jquery-1.11.3.min.js"></script>
-	<script src="js/script.js"></script>
-
-	
-
 </head>
 
 	<body>
 		
 	<header>
 	
-	<div class = "top">	
-			<video class = "backgroundVideo" loop="loop" preload="auto" autoplay muted>
-			<source src="draxProject.mp4" type="video/mp4">
-			</video>
-			<img src="css/img/draxBack.jpg" class = "altBack">
-
-			<div class = "row">
-				<div class = "col-md-12 col-sm-12 col-xs-12 mediumBuffer">
+	<div class = "top">
+			<div class = "ctrl-parallax-video">	
+				<video class = "backgroundVideo" loop="loop" preload="auto" autoplay muted>
+					<source src="draxProject.mp4" type="video/mp4">
+				</video>
+				<img src="css/img/draxBack.jpg" class = "altBack">
 				<h1 class = "bandName">DRAX PROJECT</h1>
 				<h2 id = "subtitle">SELF TITLED EP OUT NOW</h2>
-				</div>
 			</div>
-
-			<div class = "row buttonContainer mediumBuffer">
-				<div class = "col-md-12 col-sm-12 col-xs-12 col-md-offset-2 col-sm-offset-2 col-xs-offset-2">
-				<a href="https://soundcloud.com/drax-project/sets/drax-project-ep"><button class = "col-md-3 col-sm-3 col-xs-3">SoundCloud</button></a>
-				<a href="https://draxproject.bandcamp.com/album/drax-project-ep"><button class = "col-md-3 col-sm-3 col-xs-3 col-md-offset-2 col-sm-offset-2 col-xs-offset-2 ">BandCamp</button></a>
+			<div>
+				<a href="https://soundcloud.com/drax-project/sets/drax-project-ep">
+					<button>SoundCloud</button>
+				</a>
+				<a href="https://draxproject.bandcamp.com/album/drax-project-ep">
+					<button>BandCamp</button>
+				</a>
 				</div>
 			</div>
 	</div>
 
-	<div class = "row nav">
-		<ul class = "col-md-12 col-sm-12 col-xs-12">
-			<li class = "col-md-3 col-sm-3 col-xs-3 navLink" data-id = "gigs">Gigs</li>
-			<li class = "col-md-3 col-sm-3 col-xs-3 navLink" data-id = "about">About</li>
-			<li class = "col-md-3 col-sm-3 col-xs-3 navLink" data-id = "contact">Contact</li>
-			<li class = "col-md-3 col-sm-3 col-xs-3 navLink" data-id = "press">Press</li>			
-		</ul>
-	</div>
+<!-- Turn this into slide out nav
+ 		<ul>
+			<li class = "navLink" data-id = "gigs">Gigs</li>
+			<li class = "navLink" data-id = "about">About</li>
+			<li class = "navLink" data-id = "contact">Contact</li>
+			<li class = "navLink" data-id = "press">Press</li>			
+		</ul> -->
 
 	</header>
 
-		<div class = "page">		
-			<div class = "row textPadding textBlock" id = "gigs">
-				<div class = "col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
-					<!-- use javascript to pull show dates from antoher page and put them here-->
-					<p>Drax Project @ San Fran, Wellington<br>
-					Drax Project @ Some Other Place, Auckland<br>
-					Drax Project @ Sure why Not, Christchurch<br></p>
+		<div class = "page">
+
+		<!-- Gigs -->
+		<div class="plax ccparallax ccparallax-one">
+			
+			<h2>Gigs</h2>
+		</div>		
+		<div class="plax content" id = "gigs">
+				<div class="gig-card">
+					<p>Drax Project @ San Fran, Wellington</p>
+					<button>Tickets</button>
 				</div>
-			</div>
-
-			<div class = "row textPadding textBlock" id = "about" >
-					<p class = "col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2" id = "about">Drax Project is a four piece Alternative Pop/Hip-Hop band who began as group of buskers on the streets of Wellington in 2012.
-					Selling out their EP release show in Wellington, along with being announced on the line up for Rhythm & Alps and Rhythm & Vines NZ this year, Drax Project are a name to keep an eye out for.
-					<br><br>
-					<b id="bandCredits">Shaan, Vocal-Sax-Synth / Sam, Bass-Vocal / Ben, Guitar-Vocal / Matt, Drums-Cymbals</b></p>
-			</div>
-
-			<div class= "row textPadding textBlock" id = "contact">
-					<p class = "col-md-12 col-sm-12 col-xs-12">contact@draxproject.com</p>
-			</div>
+				<div class="gig-card">
+					<p>Drax Project @ Some Other Place, Auckland</p>
+					<button>Tickets</button>
+				</div>
+				<div class="gig-card">
+					<p>Drax Project @ Sure why Not, Christchurch</p>
+					<button>Tickets</button>
+				</div>
+				<div class="gig-card">
+					<p>Drax Project @ Sure why Not, Christchurch</p>
+					<button>Tickets</button>
+				</div>
 		</div>
 
-			<div class = "socialIcons row">
-				<ul class = "col-md-12 col-md-offset-2 col-sm-12 col-sm-offset-2 col-xs-12 col-xs-offset-2">
-					<li class = "col-md-2 col-sm-2 col-xs-2" id="fbLink"><a href = "https://www.facebook.com/DraxProject">Facebook</a></li>
-					<li class = "col-md-2 col-sm-2 col-xs-2"><a href = "https://twitter.com/draxproject">Twitter</a></li>
-					<li class = "col-md-2 col-sm-2 col-xs-2"><a href = "https://www.youtube.com/user/DraxProject">Youtube</a></li>
-					<li class = "col-md-2 col-sm-2 col-xs-2"><a href="https://instagram.com/draxproject/">Instagram</a>
-				</ul>
+		<!-- Press -->
+		<div class="plax ccparallax ccparallax-two">
+			<h2>Press</h2>
+		</div>
+		<div class="plax content" id = "press">
+			<div class="press-card">
+				<h3>Headline</h3>
+				<blockquote>
+					<em>For 50 years, WWF has been protecting the future of nature.</em>
+				</blockquote>
 			</div>
-		<footer><small>Website by Tanner Wells.</small></footer>
+			<div class="press-card">
+				<h3>Headline</h3>
+				<blockquote>
+					<em>For 50 years, WWF has been protecting the future of nature.</em>
+				</blockquote>
+			</div>
+		</div>
+		<div class="plax ccparallax ccparallax-two">
+			<h2>Social</h2>
+		</div>
+		<div class = "plax content" id="social-icons">
+			<a href = "https://www.facebook.com/DraxProject">
+				<i class="fa fa-facebook-square" aria-hidden="true"></i>
+			</a>	
+			<a href = "https://twitter.com/draxproject">
+				<i class="fa fa-twitter-square" aria-hidden="true"></i>
+			</a>	
+			<a href="https://instagram.com/draxproject/">
+				<i class="fa fa-instagram" aria-hidden="true"></i>
+			</a>	
+			<a href = "https://www.youtube.com/user/DraxProject">
+				<i class="fa fa-youtube-square" aria-hidden="true"></i>
+			</a>
+			<a href = "mailto:contact@draxproject.com">
+				<i class="fa fa-envelope-square" aria-hidden="true"></i>
+			</a>
+			<footer>
+				<small>Website by Tanner Wells</small>
+			</footer>
+		</div>
 
+
+		<!-- 						<div id = "about" >
+					<b>Drax Project is:</b>
+					<b id="bandCredits">Shaan, Vocal-Sax-Synth / Sam, Bass-Vocal / Ben, Guitar-Vocal / Matt, Drums-Cymbals</b></p>
+			</div> -->
+		</div>
+
+<!--JavaScript / jQuery-->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="https://use.fontawesome.com/112cfad2d1.js"></script>
+<script src="js/script.js"></script>
 	</body>
 </html>
