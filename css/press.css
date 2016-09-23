@@ -1,0 +1,24 @@
+#press {
+  background-color: black;
+  padding: 1rem;
+  clear: both; }
+  #press .card-container {
+    height: 20em;
+    padding-left: 0;
+    overflow: hidden; }
+    #press .card-container .press-card {
+      background-color: white;
+      color: black;
+      padding: 1rem;
+      float: left;
+      margin-left: 0;
+      margin-right: 0;
+      height: 90%;
+      border-radius: 7px;
+      width: 89%; }
+      #press .card-container .press-card h1 {
+        text-align: left; }
+      #press .card-container .press-card blockquote {
+        text-align: right; }
+
+/*# sourceMappingURL=press.css.map */
