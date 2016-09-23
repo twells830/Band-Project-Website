@@ -27,11 +27,11 @@
   display: block; }
 
 .plax.ccparallax-one {
-  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.25)), url("img/draxBack.jpg"); }
+  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.25)), url("https://s3.amazonaws.com/txnnxr-bucket/Drax/draxBack.jpg"); }
 .plax.ccparallax-two {
-  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.25)), url("img/draxBack2.jpg"); }
+  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.25)), url("https://s3.amazonaws.com/txnnxr-bucket/Drax/draxBack2.jpg"); }
 .plax.ccparallax-three {
-  background: linear-gradient(rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.09)), url("img/draxBack3.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.09)), url("https://s3.amazonaws.com/txnnxr-bucket/Drax/draxBack3.jpg");
   filter: grayscale(95%); }
 .plax.ccparallax {
   background-attachment: fixed;
@@ -202,7 +202,7 @@ header {
       font-size: 3em; }
 
 .altTopBackground {
-  background: linear-gradient(rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.09)), url("img/altTop.jpeg");
+  background: linear-gradient(rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.09)), url("https://s3.amazonaws.com/txnnxr-bucket/Drax/altTop.jpeg");
   padding-bottom: 200em;
   min-width: 100%;
   background-size: 100%;
@@ -388,7 +388,7 @@ footer {
     display: block; }
 
   .plax.ccparallax-four {
-    background: linear-gradient(rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.09)), url("img/altTop.jpeg");
+    background: linear-gradient(rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.09)), url("https://s3.amazonaws.com/txnnxr-bucket/Drax/altTop.jpeg");
     display: none; } }
 @media(min-width: 1134px);
 @media (min-width: 1281px) {
