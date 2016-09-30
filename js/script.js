@@ -11,10 +11,10 @@ $(window).scroll(function(){
   });
 
 //clothes-pics container for whatever you want to land
-  if (wScroll > $('.clothes-pics').offset().top - ($(window).height() * 0.1)) {
-    $('.clothes-pics figure').each(function(i) {
+  if (wScroll > $('.albums').offset().top - ($(window).height() * 0.2)) {
+    $('.albums figure').each(function(i) {
       setTimeout(function() {
-        $('.clothes-pics figure').eq(i).addClass('is-showing');
+        $('.albums figure').eq(i).addClass('is-showing');
       }, 500 * (i+1));
     });
   }
