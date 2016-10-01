@@ -6,6 +6,32 @@ $artSpacing: 5rem
 
 body
   font-family: $quicksand
+
+nav
+  list-style: none
+  position: fixed
+  top: 10
+  font-size: 1.5em
+  left: 10
+  font-family: $raleway
+  z-index: 1
+  padding: 0.2rem 1rem 0.5rem 0rem
+  .bar-nav
+    display: block
+    color: white
+    padding: 0.5rem
+    .fa
+      text-shadow: none
+      opacity: 1
+  .nav-item
+    margin-top: 5px
+    margin-bottom: 5px
+    display: none
+    a
+      border: none
+      &:hover
+        background: none
+        color: $contBlue
 article
   margin: $artSpacing auto $artSpacing auto
 
@@ -50,6 +76,7 @@ img
 .bird-box // gradient or solid color
   position: relative
   height: 180px
+  z-index: 1
   background:
     image: url("../img/mess.png")
     color: white
@@ -152,6 +179,15 @@ img
     margin-top: 1rem
     margin-bottom: 2rem
     text-align: center
+    opacity: 0
+    transition: all 0.3s ease-in-out
+    &:nth-child(odd)
+      transform: translateX(-60px)
+    &:nth-child(even)
+      transform: translateX(60px)
+    &.is-showing
+      opacity: 1
+      transform: translateX(0px)
   .date
     float: left
     font-family: $raleway
@@ -236,6 +272,12 @@ img
     h1
       font-size: 2em
 @media(min-width:769px) //small tablets(landscape)
+  nav
+    z-index: 0
+    .nav-item
+      display: list-item
+    .bar-nav
+      display: none
   h2
     font-size: 3.5em
   .bird-box //white background
